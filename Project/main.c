@@ -65,7 +65,7 @@ static void test_my_sum_neg(void) {
 /* Testing summation of zeros */
 static void test_my_sum_zero(void) {
   const int sum = my_sum(0, 0);
-  TEST_ASSERT_EQUAL_INT(3, sum);
+  TEST_ASSERT_EQUAL_INT(0, sum);
 }
 
 /* Failing test with incorrect summation value */
